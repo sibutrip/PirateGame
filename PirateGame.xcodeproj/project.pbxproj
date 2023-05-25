@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746D30CA2A1FBB6500979441 /* PirateGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D30C92A1FBB6500979441 /* PirateGameApp.swift */; };
+		746D30CC2A1FBB6500979441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D30CB2A1FBB6500979441 /* ContentView.swift */; };
+		746D30CE2A1FBB6600979441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746D30CD2A1FBB6600979441 /* Assets.xcassets */; };
+		746D30D12A1FBB6600979441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746D30D02A1FBB6600979441 /* Preview Assets.xcassets */; };
+		746D30D82A1FBC0700979441 /* MidiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D30D72A1FBC0700979441 /* MidiHandler.swift */; };
+		97D8C5C808AF9C800D52636C /* Pods_PirateGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146ACA79DA4A5377C7DAD7A4 /* Pods_PirateGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		146ACA79DA4A5377C7DAD7A4 /* Pods_PirateGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PirateGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A287621BDEF58ADDFE7D15 /* Pods-PirateGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PirateGame.debug.xcconfig"; path = "Target Support Files/Pods-PirateGame/Pods-PirateGame.debug.xcconfig"; sourceTree = "<group>"; };
+		746D30C62A1FBB6500979441 /* PirateGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746D30C92A1FBB6500979441 /* PirateGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateGameApp.swift; sourceTree = "<group>"; };
+		746D30CB2A1FBB6500979441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746D30CD2A1FBB6600979441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746D30D02A1FBB6600979441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		746D30D72A1FBC0700979441 /* MidiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiHandler.swift; sourceTree = "<group>"; };
+		7EED55BB2ABEE2E9C1F0C9DA /* Pods-PirateGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PirateGame.release.xcconfig"; path = "Target Support Files/Pods-PirateGame/Pods-PirateGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746D30C32A1FBB6500979441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D8C5C808AF9C800D52636C /* Pods_PirateGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099545B5E7A3456642476CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A287621BDEF58ADDFE7D15 /* Pods-PirateGame.debug.xcconfig */,
+				7EED55BB2ABEE2E9C1F0C9DA /* Pods-PirateGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		746D30BD2A1FBB6500979441 = {
+			isa = PBXGroup;
+			children = (
+				746D30C82A1FBB6500979441 /* PirateGame */,
+				746D30C72A1FBB6500979441 /* Products */,
+				099545B5E7A3456642476CE9 /* Pods */,
+				D7CB019A4DEDE67F45E10012 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		746D30C72A1FBB6500979441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746D30C62A1FBB6500979441 /* PirateGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746D30C82A1FBB6500979441 /* PirateGame */ = {
+			isa = PBXGroup;
+			children = (
+				746D30C92A1FBB6500979441 /* PirateGameApp.swift */,
+				746D30CB2A1FBB6500979441 /* ContentView.swift */,
+				746D30D72A1FBC0700979441 /* MidiHandler.swift */,
+				746D30CD2A1FBB6600979441 /* Assets.xcassets */,
+				746D30CF2A1FBB6600979441 /* Preview Content */,
+			);
+			path = PirateGame;
+			sourceTree = "<group>";
+		};
+		746D30CF2A1FBB6600979441 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				746D30D02A1FBB6600979441 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7CB019A4DEDE67F45E10012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146ACA79DA4A5377C7DAD7A4 /* Pods_PirateGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746D30C52A1FBB6500979441 /* PirateGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746D30D42A1FBB6600979441 /* Build configuration list for PBXNativeTarget "PirateGame" */;
+			buildPhases = (
+				3341EB2A4979CA4F87474C50 /* [CP] Check Pods Manifest.lock */,
+				746D30C22A1FBB6500979441 /* Sources */,
+				746D30C32A1FBB6500979441 /* Frameworks */,
+				746D30C42A1FBB6500979441 /* Resources */,
+				9BAF316EC0DFD7443B5FEE16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PirateGame;
+			productName = PirateGame;
+			productReference = 746D30C62A1FBB6500979441 /* PirateGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746D30BE2A1FBB6500979441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					746D30C52A1FBB6500979441 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 746D30C12A1FBB6500979441 /* Build configuration list for PBXProject "PirateGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746D30BD2A1FBB6500979441;
+			productRefGroup = 746D30C72A1FBB6500979441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746D30C52A1FBB6500979441 /* PirateGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746D30C42A1FBB6500979441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746D30D12A1FBB6600979441 /* Preview Assets.xcassets in Resources */,
+				746D30CE2A1FBB6600979441 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3341EB2A4979CA4F87474C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PirateGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BAF316EC0DFD7443B5FEE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PirateGame/Pods-PirateGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PirateGame/Pods-PirateGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PirateGame/Pods-PirateGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746D30C22A1FBB6500979441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746D30CC2A1FBB6500979441 /* ContentView.swift in Sources */,
+				746D30CA2A1FBB6500979441 /* PirateGameApp.swift in Sources */,
+				746D30D82A1FBC0700979441 /* MidiHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		746D30D22A1FBB6600979441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		746D30D32A1FBB6600979441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746D30D52A1FBB6600979441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A287621BDEF58ADDFE7D15 /* Pods-PirateGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PirateGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UR85MK9RT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoryTripathy.PirateGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746D30D62A1FBB6600979441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EED55BB2ABEE2E9C1F0C9DA /* Pods-PirateGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PirateGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UR85MK9RT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoryTripathy.PirateGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746D30C12A1FBB6500979441 /* Build configuration list for PBXProject "PirateGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746D30D22A1FBB6600979441 /* Debug */,
+				746D30D32A1FBB6600979441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746D30D42A1FBB6600979441 /* Build configuration list for PBXNativeTarget "PirateGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746D30D52A1FBB6600979441 /* Debug */,
+				746D30D62A1FBB6600979441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 746D30BE2A1FBB6500979441 /* Project object */;
+}
